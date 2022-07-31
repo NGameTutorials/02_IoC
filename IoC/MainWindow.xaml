@@ -1,0 +1,17 @@
+﻿<Window x:Class="IoC.MainWindow"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" 
+        mc:Ignorable="d"
+        Height="450" 
+        Width="800">
+
+    <StackPanel VerticalAlignment="Center">
+        <Button Content="Learn 001" Click="Learn01"/>
+        <Button Content="Learn 002" Click="Learn02"/>
+        <Button Content="Learn 003" Click="Learn03"/>
+        <Button Content="Learn 004" Click="Learn04"/>
+    </StackPanel>
+</Window>
